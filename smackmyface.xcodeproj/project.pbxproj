@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32B6E9B71808C9C900BAEFAF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B6E9B61808C9C900BAEFAF /* AudioToolbox.framework */; };
+		32B6E9BA1808CF5500BAEFAF /* ouch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 32B6E9B81808CF5400BAEFAF /* ouch.wav */; };
+		32B6E9BB1808CF5500BAEFAF /* smack.wav in Resources */ = {isa = PBXBuildFile; fileRef = 32B6E9B91808CF5400BAEFAF /* smack.wav */; };
+		32B6E9C31808DE4600BAEFAF /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32B6E9C01808DE4500BAEFAF /* 0.jpg */; };
+		32B6E9C41808DE4600BAEFAF /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B6E9C11808DE4500BAEFAF /* bg.png */; };
+		32B6E9C51808DE4600BAEFAF /* bgcredit.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B6E9C21808DE4600BAEFAF /* bgcredit.png */; };
+		32B6E9C81808DE5A00BAEFAF /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32B6E9C71808DE5900BAEFAF /* 1.jpg */; };
+		32B6E9CA1808E49D00BAEFAF /* iconfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B6E9C91808E49D00BAEFAF /* iconfile.png */; };
+		32B6E9CC1808E4EB00BAEFAF /* iconfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B6E9CB1808E4EB00BAEFAF /* iconfile.png */; };
+		32B6E9D01808E6B800BAEFAF /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B6E9CF1808E6B800BAEFAF /* icon114.png */; };
+		C396AEE517FB973300AAEF6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C396AEE417FB973300AAEF6A /* UIKit.framework */; };
+		C396AEE717FB973300AAEF6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C396AEE617FB973300AAEF6A /* Foundation.framework */; };
+		C396AEE917FB973300AAEF6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C396AEE817FB973300AAEF6A /* CoreGraphics.framework */; };
+		C396AEEF17FB973300AAEF6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C396AEED17FB973300AAEF6A /* InfoPlist.strings */; };
+		C396AEF117FB973300AAEF6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C396AEF017FB973300AAEF6A /* main.m */; };
+		C396AEF517FB973300AAEF6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C396AEF417FB973300AAEF6A /* AppDelegate.m */; };
+		C396AEF717FB973300AAEF6A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C396AEF617FB973300AAEF6A /* Default.png */; };
+		C396AEF917FB973300AAEF6A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C396AEF817FB973300AAEF6A /* Default@2x.png */; };
+		C396AEFB17FB973300AAEF6A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C396AEFA17FB973300AAEF6A /* Default-568h@2x.png */; };
+		C396AEFE17FB973300AAEF6A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C396AEFC17FB973300AAEF6A /* MainStoryboard.storyboard */; };
+		C396AF0117FB973300AAEF6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C396AF0017FB973300AAEF6A /* ViewController.m */; };
+		C396AF0917FB9B3300AAEF6A /* gameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C396AF0817FB9B3300AAEF6A /* gameViewController.m */; };
+		C396AF0C17FB9B5200AAEF6A /* scoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C396AF0B17FB9B5200AAEF6A /* scoreViewController.m */; };
+		C396AF0F17FB9B6100AAEF6A /* helpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C396AF0E17FB9B6100AAEF6A /* helpViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32B6E9B61808C9C900BAEFAF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		32B6E9B81808CF5400BAEFAF /* ouch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ouch.wav; sourceTree = "<group>"; };
+		32B6E9B91808CF5400BAEFAF /* smack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = smack.wav; sourceTree = "<group>"; };
+		32B6E9C01808DE4500BAEFAF /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		32B6E9C11808DE4500BAEFAF /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		32B6E9C21808DE4600BAEFAF /* bgcredit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgcredit.png; sourceTree = "<group>"; };
+		32B6E9C71808DE5900BAEFAF /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		32B6E9C91808E49D00BAEFAF /* iconfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconfile.png; sourceTree = "<group>"; };
+		32B6E9CB1808E4EB00BAEFAF /* iconfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconfile.png; sourceTree = "<group>"; };
+		32B6E9CF1808E6B800BAEFAF /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
+		C396AEE017FB973200AAEF6A /* smackmyface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smackmyface.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C396AEE417FB973300AAEF6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C396AEE617FB973300AAEF6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C396AEE817FB973300AAEF6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C396AEEC17FB973300AAEF6A /* smackmyface-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "smackmyface-Info.plist"; sourceTree = "<group>"; };
+		C396AEEE17FB973300AAEF6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C396AEF017FB973300AAEF6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C396AEF217FB973300AAEF6A /* smackmyface-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "smackmyface-Prefix.pch"; sourceTree = "<group>"; };
+		C396AEF317FB973300AAEF6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C396AEF417FB973300AAEF6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C396AEF617FB973300AAEF6A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C396AEF817FB973300AAEF6A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C396AEFA17FB973300AAEF6A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C396AEFD17FB973300AAEF6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C396AEFF17FB973300AAEF6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C396AF0017FB973300AAEF6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C396AF0717FB9B3300AAEF6A /* gameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameViewController.h; sourceTree = "<group>"; };
+		C396AF0817FB9B3300AAEF6A /* gameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gameViewController.m; sourceTree = "<group>"; };
+		C396AF0A17FB9B5200AAEF6A /* scoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scoreViewController.h; sourceTree = "<group>"; };
+		C396AF0B17FB9B5200AAEF6A /* scoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scoreViewController.m; sourceTree = "<group>"; };
+		C396AF0D17FB9B6100AAEF6A /* helpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpViewController.h; sourceTree = "<group>"; };
+		C396AF0E17FB9B6100AAEF6A /* helpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helpViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C396AEDD17FB973200AAEF6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C396AEE517FB973300AAEF6A /* UIKit.framework in Frameworks */,
+				C396AEE717FB973300AAEF6A /* Foundation.framework in Frameworks */,
+				C396AEE917FB973300AAEF6A /* CoreGraphics.framework in Frameworks */,
+				32B6E9B71808C9C900BAEFAF /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C396AED517FB973200AAEF6A = {
+			isa = PBXGroup;
+			children = (
+				32B6E9CF1808E6B800BAEFAF /* icon114.png */,
+				32B6E9CB1808E4EB00BAEFAF /* iconfile.png */,
+				C396AEEA17FB973300AAEF6A /* smackmyface */,
+				C396AEE317FB973200AAEF6A /* Frameworks */,
+				C396AEE117FB973200AAEF6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C396AEE117FB973200AAEF6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C396AEE017FB973200AAEF6A /* smackmyface.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C396AEE317FB973200AAEF6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32B6E9B61808C9C900BAEFAF /* AudioToolbox.framework */,
+				C396AEE417FB973300AAEF6A /* UIKit.framework */,
+				C396AEE617FB973300AAEF6A /* Foundation.framework */,
+				C396AEE817FB973300AAEF6A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C396AEEA17FB973300AAEF6A /* smackmyface */ = {
+			isa = PBXGroup;
+			children = (
+				32B6E9C91808E49D00BAEFAF /* iconfile.png */,
+				32B6E9C71808DE5900BAEFAF /* 1.jpg */,
+				32B6E9C01808DE4500BAEFAF /* 0.jpg */,
+				32B6E9C11808DE4500BAEFAF /* bg.png */,
+				32B6E9C21808DE4600BAEFAF /* bgcredit.png */,
+				32B6E9B81808CF5400BAEFAF /* ouch.wav */,
+				32B6E9B91808CF5400BAEFAF /* smack.wav */,
+				C396AEF317FB973300AAEF6A /* AppDelegate.h */,
+				C396AEF417FB973300AAEF6A /* AppDelegate.m */,
+				C396AEFC17FB973300AAEF6A /* MainStoryboard.storyboard */,
+				C396AEFF17FB973300AAEF6A /* ViewController.h */,
+				C396AF0017FB973300AAEF6A /* ViewController.m */,
+				C396AF0717FB9B3300AAEF6A /* gameViewController.h */,
+				C396AF0817FB9B3300AAEF6A /* gameViewController.m */,
+				C396AF0A17FB9B5200AAEF6A /* scoreViewController.h */,
+				C396AF0B17FB9B5200AAEF6A /* scoreViewController.m */,
+				C396AF0D17FB9B6100AAEF6A /* helpViewController.h */,
+				C396AF0E17FB9B6100AAEF6A /* helpViewController.m */,
+				C396AEEB17FB973300AAEF6A /* Supporting Files */,
+			);
+			path = smackmyface;
+			sourceTree = "<group>";
+		};
+		C396AEEB17FB973300AAEF6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C396AEEC17FB973300AAEF6A /* smackmyface-Info.plist */,
+				C396AEED17FB973300AAEF6A /* InfoPlist.strings */,
+				C396AEF017FB973300AAEF6A /* main.m */,
+				C396AEF217FB973300AAEF6A /* smackmyface-Prefix.pch */,
+				C396AEF617FB973300AAEF6A /* Default.png */,
+				C396AEF817FB973300AAEF6A /* Default@2x.png */,
+				C396AEFA17FB973300AAEF6A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C396AEDF17FB973200AAEF6A /* smackmyface */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C396AF0417FB973300AAEF6A /* Build configuration list for PBXNativeTarget "smackmyface" */;
+			buildPhases = (
+				C396AEDC17FB973200AAEF6A /* Sources */,
+				C396AEDD17FB973200AAEF6A /* Frameworks */,
+				C396AEDE17FB973200AAEF6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = smackmyface;
+			productName = smackmyface;
+			productReference = C396AEE017FB973200AAEF6A /* smackmyface.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C396AED717FB973200AAEF6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "SCC Team";
+			};
+			buildConfigurationList = C396AEDA17FB973200AAEF6A /* Build configuration list for PBXProject "smackmyface" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C396AED517FB973200AAEF6A;
+			productRefGroup = C396AEE117FB973200AAEF6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C396AEDF17FB973200AAEF6A /* smackmyface */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C396AEDE17FB973200AAEF6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C396AEEF17FB973300AAEF6A /* InfoPlist.strings in Resources */,
+				C396AEF717FB973300AAEF6A /* Default.png in Resources */,
+				C396AEF917FB973300AAEF6A /* Default@2x.png in Resources */,
+				C396AEFB17FB973300AAEF6A /* Default-568h@2x.png in Resources */,
+				C396AEFE17FB973300AAEF6A /* MainStoryboard.storyboard in Resources */,
+				32B6E9BA1808CF5500BAEFAF /* ouch.wav in Resources */,
+				32B6E9BB1808CF5500BAEFAF /* smack.wav in Resources */,
+				32B6E9C31808DE4600BAEFAF /* 0.jpg in Resources */,
+				32B6E9C41808DE4600BAEFAF /* bg.png in Resources */,
+				32B6E9C51808DE4600BAEFAF /* bgcredit.png in Resources */,
+				32B6E9C81808DE5A00BAEFAF /* 1.jpg in Resources */,
+				32B6E9CA1808E49D00BAEFAF /* iconfile.png in Resources */,
+				32B6E9CC1808E4EB00BAEFAF /* iconfile.png in Resources */,
+				32B6E9D01808E6B800BAEFAF /* icon114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C396AEDC17FB973200AAEF6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C396AEF117FB973300AAEF6A /* main.m in Sources */,
+				C396AEF517FB973300AAEF6A /* AppDelegate.m in Sources */,
+				C396AF0117FB973300AAEF6A /* ViewController.m in Sources */,
+				C396AF0917FB9B3300AAEF6A /* gameViewController.m in Sources */,
+				C396AF0C17FB9B5200AAEF6A /* scoreViewController.m in Sources */,
+				C396AF0F17FB9B6100AAEF6A /* helpViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C396AEED17FB973300AAEF6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C396AEEE17FB973300AAEF6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C396AEFC17FB973300AAEF6A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C396AEFD17FB973300AAEF6A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C396AF0217FB973300AAEF6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C396AF0317FB973300AAEF6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C396AF0517FB973300AAEF6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "smackmyface/smackmyface-Prefix.pch";
+				INFOPLIST_FILE = "smackmyface/smackmyface-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C396AF0617FB973300AAEF6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "smackmyface/smackmyface-Prefix.pch";
+				INFOPLIST_FILE = "smackmyface/smackmyface-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C396AEDA17FB973200AAEF6A /* Build configuration list for PBXProject "smackmyface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C396AF0217FB973300AAEF6A /* Debug */,
+				C396AF0317FB973300AAEF6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C396AF0417FB973300AAEF6A /* Build configuration list for PBXNativeTarget "smackmyface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C396AF0517FB973300AAEF6A /* Debug */,
+				C396AF0617FB973300AAEF6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C396AED717FB973200AAEF6A /* Project object */;
+}
